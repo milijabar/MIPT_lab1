@@ -20,10 +20,23 @@
         android:id="@+id/btnChangeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Learn more"
         android:onClick="onBtnChangeTextClick"
+        android:text="Learn more"
+        android:backgroundTint="#387810"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvMain" />
+
+    <Button
+        android:id="@+id/btnChangeTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:onClick="onBtnChangeTextColorClick"
+        android:text="Change text color"
+        android:backgroundTint="#AC367C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
