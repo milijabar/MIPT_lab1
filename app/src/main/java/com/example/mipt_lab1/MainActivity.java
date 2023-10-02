@@ -26,6 +26,4 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnChangeTextColorClick(View view) {
         this.tvMain.setTextColor(Color.parseColor("#AC367C"));
     }
-
-    //revertinimui
 }
